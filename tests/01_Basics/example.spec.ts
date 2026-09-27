@@ -25,4 +25,5 @@ test('test', async ({ page }) => {
   await page.getByRole('textbox', { name: 'Email address' }).click();
   await page.getByRole('textbox', { name: 'Email address' }).fill('siba@yopmail.com');
   await page.getByRole('button', { name: 'Continue', exact: true }).click();
+
 });
