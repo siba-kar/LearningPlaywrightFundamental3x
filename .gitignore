@@ -9,3 +9,7 @@ node_modules/
 .commandcode/
 debug.log
 abc.png
+.env
+/allure-results/
+/allure-report/
+/user-session.json
